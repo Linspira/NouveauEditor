@@ -1,0 +1,11 @@
+{
+    "name": "CodeEditor",
+
+    "requires": [
+    	"ExtAddonToggleButton",
+    	"ExtAddonTogetherJS",
+    	"ExtAddonEditor"
+    ],
+
+    "id": "1453ab55-93eb-4a80-8e80-3b5d3d50e8ec"
+}

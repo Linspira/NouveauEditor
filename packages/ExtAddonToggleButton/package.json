@@ -1,0 +1,12 @@
+{
+    "name": "ExtAddonToggleButton",
+    "type": "code",
+    "creator": "Lee Boonstra",
+    "summary": "A nice toggle button as replacement for a checkbox.",
+    "detailedDescription": "A nice toggle button as replacement for a checkbox.",
+    "version": "1.0.0",
+    "compatVersion": "1.0.0",
+    "format": "1",
+    "local": true,
+    "requires": []
+}
