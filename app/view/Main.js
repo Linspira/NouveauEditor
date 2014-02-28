@@ -2,7 +2,8 @@ Ext.define('CodeEditor.view.Main', {
     extend: 'Ext.tab.Panel',
     requires:[
         'Ext.tab.Panel',
-        'ExtAddonEditor.Editor'
+        'ExtAddonEditor.Editor',
+        'ExtAddonTogetherJS.Collaborate'
     ],
     
     layout: 'fit',
@@ -34,6 +35,9 @@ Ext.define('CodeEditor.view.Main', {
         xtype: 'extaddoneditor',
         title: 'Readonly',
         html: '<pre class="runnable readonly">Readonly</spre>'
+    }, {
+        xtype: 'extaddoncollaborate',
+        title: 'Collaborate'
     }
 
     ]

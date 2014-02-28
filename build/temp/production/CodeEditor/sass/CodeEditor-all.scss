@@ -1,5 +1,5 @@
 $image-search-path: '/Applications/XAMPP/xamppfiles/htdocs/training-playground/nouveaueditor/build/production/CodeEditor/resources';
-$theme-name:  'ext-theme-classic' !default;
+$theme-name:  'ext-theme-neptune' !default;
 $include-codeeditor-application: true;
 $include-codeeditor-controller-main: false;
 $include-codeeditor-view-main: true;
@@ -553,55 +553,74 @@ $include-ext-view-view: false;
 $include-ext-window-messagebox: false;
 $include-ext-window-window: false;
 $include-extaddoneditor-editor: true;
+$include-extaddontogetherjs-collaborate: true;
 $include-extaddontogglebutton-form-field-togglebutton: false;
+$include-extthemeneptune-component: true;
+$include-extthemeneptune-container-buttongroup: false;
+$include-extthemeneptune-form-field-htmleditor: false;
+$include-extthemeneptune-grid-roweditor: false;
+$include-extthemeneptune-grid-column-rownumberer: false;
+$include-extthemeneptune-layout-component-dock: true;
+$include-extthemeneptune-menu-menu: true;
+$include-extthemeneptune-menu-separator: true;
+$include-extthemeneptune-panel-panel: true;
+$include-extthemeneptune-panel-table: false;
+$include-extthemeneptune-panel-tool: true;
+$include-extthemeneptune-picker-month: false;
+$include-extthemeneptune-resizer-splitter: false;
+$include-extthemeneptune-tab-tab: true;
+$include-extthemeneptune-toolbar-paging: false;
+$include-extthemeneptune-toolbar-toolbar: true;
 /* including package ext-theme-base */
 @import '../../../../../ext/packages/ext-theme-base/sass/etc/all';
 /* including package ext-theme-neutral */
 @import '../../../../../ext/packages/ext-theme-neutral/sass/etc/all';
-/* including package ext-theme-classic */
-@import '../../../../../ext/packages/ext-theme-classic/sass/etc/all';
+/* including package ext-theme-neptune */
+@import '../../../../../ext/packages/ext-theme-neptune/sass/etc/all';
 /* including package ExtAddonToggleButton */
 @import '../../../../../packages/ExtAddonToggleButton/sass/etc/all';
 /* including package ExtAddonTogetherJS */
 @import '../../../../../packages/ExtAddonTogetherJS/sass/etc/all';
 /* including package ExtAddonEditor */
 @import '../../../../../packages/ExtAddonEditor/sass/etc/all';
-/* including package ext-theme-classic */
-@import '../../../../../ext/packages/ext-theme-classic/sass/var/Component';
-@import '../../../../../ext/packages/ext-theme-classic/sass/var/LoadMask';
-@import '../../../../../ext/packages/ext-theme-classic/sass/var/ProgressBar';
-@import '../../../../../ext/packages/ext-theme-classic/sass/var/button/Button';
-@import '../../../../../ext/packages/ext-theme-classic/sass/var/toolbar/Toolbar';
-@import '../../../../../ext/packages/ext-theme-classic/sass/var/panel/Panel';
-@import '../../../../../ext/packages/ext-theme-classic/sass/var/tip/Tip';
-@import '../../../../../ext/packages/ext-theme-classic/sass/var/container/ButtonGroup';
-@import '../../../../../ext/packages/ext-theme-classic/sass/var/window/Window';
-@import '../../../../../ext/packages/ext-theme-classic/sass/var/form/Labelable';
-@import '../../../../../ext/packages/ext-theme-classic/sass/var/form/field/Base';
-@import '../../../../../ext/packages/ext-theme-classic/sass/var/form/field/Display';
-@import '../../../../../ext/packages/ext-theme-classic/sass/var/window/MessageBox';
-@import '../../../../../ext/packages/ext-theme-classic/sass/var/form/CheckboxGroup';
-@import '../../../../../ext/packages/ext-theme-classic/sass/var/form/FieldSet';
-@import '../../../../../ext/packages/ext-theme-classic/sass/var/form/field/Trigger';
-@import '../../../../../ext/packages/ext-theme-classic/sass/var/view/BoundList';
-@import '../../../../../ext/packages/ext-theme-classic/sass/var/picker/Date';
-@import '../../../../../ext/packages/ext-theme-classic/sass/var/picker/Color';
-@import '../../../../../ext/packages/ext-theme-classic/sass/var/form/field/HtmlEditor';
-@import '../../../../../ext/packages/ext-theme-classic/sass/var/panel/Table';
-@import '../../../../../ext/packages/ext-theme-classic/sass/var/grid/header/Container';
-@import '../../../../../ext/packages/ext-theme-classic/sass/var/grid/column/Column';
-@import '../../../../../ext/packages/ext-theme-classic/sass/var/grid/feature/Grouping';
-@import '../../../../../ext/packages/ext-theme-classic/sass/var/grid/plugin/RowEditing';
-@import '../../../../../ext/packages/ext-theme-classic/sass/var/grid/plugin/RowExpander';
-@import '../../../../../ext/packages/ext-theme-classic/sass/var/grid/property/Grid';
-@import '../../../../../ext/packages/ext-theme-classic/sass/var/layout/container/Accordion';
-@import '../../../../../ext/packages/ext-theme-classic/sass/var/layout/container/Border';
-@import '../../../../../ext/packages/ext-theme-classic/sass/var/menu/Menu';
-@import '../../../../../ext/packages/ext-theme-classic/sass/var/panel/Tool';
-@import '../../../../../ext/packages/ext-theme-classic/sass/var/resizer/Resizer';
-@import '../../../../../ext/packages/ext-theme-classic/sass/var/slider/Multi';
-@import '../../../../../ext/packages/ext-theme-classic/sass/var/tab/Tab';
-@import '../../../../../ext/packages/ext-theme-classic/sass/var/tab/Bar';
+/* including package ext-theme-neptune */
+@import '../../../../../ext/packages/ext-theme-neptune/sass/var/Component';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/var/LoadMask';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/var/ProgressBar';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/var/button/Button';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/var/toolbar/Toolbar';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/var/panel/Panel';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/var/tip/Tip';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/var/container/ButtonGroup';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/var/window/Window';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/var/form/Labelable';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/var/form/field/Base';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/var/form/field/Display';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/var/form/field/Checkbox';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/var/form/CheckboxGroup';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/var/form/FieldSet';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/var/form/field/Trigger';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/var/form/field/Spinner';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/var/toolbar/Paging';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/var/view/BoundList';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/var/picker/Date';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/var/picker/Color';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/var/panel/Table';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/var/grid/header/Container';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/var/grid/column/Column';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/var/grid/column/Action';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/var/grid/feature/Grouping';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/var/grid/plugin/RowEditing';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/var/layout/container/Accordion';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/var/resizer/Splitter';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/var/layout/container/Border';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/var/menu/Menu';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/var/panel/Tool';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/var/resizer/Resizer';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/var/tab/Tab';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/var/tab/Bar';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/var/selection/CheckboxModel';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/var/tree/Panel';
 /* including package ext-theme-neutral */
 @import '../../../../../ext/packages/ext-theme-neutral/sass/var/Component';
 @import '../../../../../ext/packages/ext-theme-neutral/sass/var/FocusManager';
@@ -695,13 +714,14 @@ $relative-image-path-for-uis: $ext-theme-neutral-resource-path;
 @import '../../../../../ext/packages/ext-theme-neutral/sass/src/resizer/Resizer';
 @import '../../../../../ext/packages/ext-theme-neutral/sass/src/tab/Tab';
 @import '../../../../../ext/packages/ext-theme-neutral/sass/src/tab/Bar';
-/* including package ext-theme-classic */
-$ext-theme-classic-resource-path: 'images' !default;
-$relative-image-path-for-uis: $ext-theme-classic-resource-path;
-@import '../../../../../ext/packages/ext-theme-classic/sass/src/dom/Element';
-@import '../../../../../ext/packages/ext-theme-classic/sass/src/toolbar/Toolbar';
-@import '../../../../../ext/packages/ext-theme-classic/sass/src/resizer/Resizer';
-@import '../../../../../ext/packages/ext-theme-classic/sass/src/tab/Panel';
+/* including package ext-theme-neptune */
+$ext-theme-neptune-resource-path: 'images' !default;
+$relative-image-path-for-uis: $ext-theme-neptune-resource-path;
+@import '../../../../../ext/packages/ext-theme-neptune/sass/src/button/Button';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/src/toolbar/Toolbar';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/src/dd/StatusProxy';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/src/panel/Panel';
+@import '../../../../../ext/packages/ext-theme-neptune/sass/src/resizer/Resizer';
 /* including package ExtAddonEditor */
 $ExtAddonEditor-resource-path: 'ExtAddonEditor/images' !default;
 $relative-image-path-for-uis: $ExtAddonEditor-resource-path;
