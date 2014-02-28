@@ -554,7 +554,6 @@ $include-ext-window-messagebox: true;
 $include-ext-window-window: true;
 $include-extaddoneditor-editor: true;
 $include-extaddontogetherjs-collaborate: true;
-$include-extaddontogglebutton-form-field-togglebutton: true;
 $include-extthemeneptune-component: true;
 $include-extthemeneptune-container-buttongroup: true;
 $include-extthemeneptune-form-field-htmleditor: true;
@@ -577,8 +576,6 @@ $include-extthemeneptune-toolbar-toolbar: true;
 @import '../../../../../ext/packages/ext-theme-neutral/sass/etc/all';
 /* including package ext-theme-neptune */
 @import '../../../../../ext/packages/ext-theme-neptune/sass/etc/all';
-/* including package ExtAddonToggleButton */
-@import '../../../../../packages/ExtAddonToggleButton/sass/etc/all';
 /* including package ExtAddonTogetherJS */
 @import '../../../../../packages/ExtAddonTogetherJS/sass/etc/all';
 /* including package ExtAddonEditor */
@@ -820,10 +817,10 @@ $relative-image-path-for-uis: $ext-theme-neptune-resource-path;
 @import '../../../../../ext/packages/ext-theme-neptune/sass/src/grid/plugin/RowEditing';
 @import '../../../../../ext/packages/ext-theme-neptune/sass/src/layout/container/Accordion';
 @import '../../../../../ext/packages/ext-theme-neptune/sass/src/resizer/Resizer';
-/* including package ExtAddonToggleButton */
-$ExtAddonToggleButton-resource-path: 'ExtAddonToggleButton/images' !default;
-$relative-image-path-for-uis: $ExtAddonToggleButton-resource-path;
-@import '../../../../../packages/ExtAddonToggleButton/sass/src/form/field/ToggleButton';
+/* including package ExtAddonTogetherJS */
+$ExtAddonTogetherJS-resource-path: 'ExtAddonTogetherJS/images' !default;
+$relative-image-path-for-uis: $ExtAddonTogetherJS-resource-path;
+@import '../../../../../packages/ExtAddonTogetherJS/sass/src/Collaborate';
 /* including package ExtAddonEditor */
 $ExtAddonEditor-resource-path: 'ExtAddonEditor/images' !default;
 $relative-image-path-for-uis: $ExtAddonEditor-resource-path;

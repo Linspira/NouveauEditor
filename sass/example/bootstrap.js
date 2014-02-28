@@ -1216,8 +1216,7 @@ Ext.Loader.addClassPathMappings({
   "Ext.core.DomHelper": "../../ext/src/dom/Helper.js",
   "Ext.core.DomQuery": "../../ext/src/dom/Query.js",
   "ExtAddonEditor.Editor": "../../packages/ExtAddonEditor/src/Editor.js",
-  "ExtAddonTogetherJS.Collaborate": "../../packages/ExtAddonTogetherJS/src/TogetherJS.js",
-  "ExtAddonToggleButton.form.field.ToggleButton": "../../packages/ExtAddonToggleButton/src/form/field/ToggleButton.js",
+  "ExtAddonTogetherJS.Collaborate": "../../packages/ExtAddonTogetherJS/src/Collaborate.js",
   "ExtThemeNeptune": "../../ext/packages/ext-theme-neptune/overrides"
 });
 Ext.ClassManager.addNameAlternateMappings({
@@ -2058,7 +2057,6 @@ Ext.ClassManager.addNameAlternateMappings({
   ],
   "ExtAddonEditor.Editor": [],
   "ExtAddonTogetherJS.Collaborate": [],
-  "ExtAddonToggleButton.form.field.ToggleButton": [],
   "ExtThemeNeptune.Component": [],
   "ExtThemeNeptune.container.ButtonGroup": [],
   "ExtThemeNeptune.form.field.HtmlEditor": [],
@@ -3087,9 +3085,6 @@ Ext.ClassManager.addNameAliasMappings({
   "ExtAddonTogetherJS.Collaborate": [
     "widget.extaddoncollaborate"
   ],
-  "ExtAddonToggleButton.form.field.ToggleButton": [
-    "widget.extaddontogglebutton"
-  ],
   "ExtThemeNeptune.Component": [],
   "ExtThemeNeptune.container.ButtonGroup": [],
   "ExtThemeNeptune.form.field.HtmlEditor": [],
@@ -3109,7 +3104,6 @@ Ext.ClassManager.addNameAliasMappings({
 });
 Ext.setVersion("ExtAddonEditor", "1.0.0");
 Ext.setVersion("ExtAddonTogetherJS", "1.0.0");
-Ext.setVersion("ExtAddonToggleButton", "1.0.0");
 Ext.setVersion("ext-theme-base", "4.2.3.1271");
 Ext.setVersion("ext-theme-neptune", "4.2.3.1271");
 Ext.setVersion("ext-theme-neutral", "4.2.3.1271");

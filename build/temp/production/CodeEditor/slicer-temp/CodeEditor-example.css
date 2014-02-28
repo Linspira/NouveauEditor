@@ -62,7 +62,6 @@
  */
 /* including package ext-theme-neutral */
 /* including package ext-theme-neptune */
-/* including package ExtAddonToggleButton */
 /* including package ExtAddonTogetherJS */
 /* including package ExtAddonEditor */
 /* including package ext-theme-neptune */
@@ -25285,8 +25284,8 @@ a.x-color-picker-item:hover {
   background-position: 2px -2px;
 }
 
-/* including package ExtAddonToggleButton */
-/* line 1, ../../../../../packages/ExtAddonToggleButton/sass/src/form/field/ToggleButton.scss */
+/* including package ExtAddonTogetherJS */
+/* line 1, ../../../../../packages/ExtAddonTogetherJS/sass/src/Collaborate.scss */
 .onoffswitch {
   position: relative;
   width: 75px;
@@ -25294,11 +25293,11 @@ a.x-color-picker-item:hover {
   -moz-user-select: none;
   -ms-user-select: none;
 }
-/* line 8, ../../../../../packages/ExtAddonToggleButton/sass/src/form/field/ToggleButton.scss */
+/* line 8, ../../../../../packages/ExtAddonTogetherJS/sass/src/Collaborate.scss */
 .onoffswitch .onoffswitch-checkbox {
   display: none;
 }
-/* line 11, ../../../../../packages/ExtAddonToggleButton/sass/src/form/field/ToggleButton.scss */
+/* line 11, ../../../../../packages/ExtAddonTogetherJS/sass/src/Collaborate.scss */
 .onoffswitch .onoffswitch-label {
   display: block;
   overflow: hidden;
@@ -25306,7 +25305,7 @@ a.x-color-picker-item:hover {
   border: 2px solid #999999;
   border-radius: 20px;
 }
-/* line 18, ../../../../../packages/ExtAddonToggleButton/sass/src/form/field/ToggleButton.scss */
+/* line 18, ../../../../../packages/ExtAddonTogetherJS/sass/src/Collaborate.scss */
 .onoffswitch .onoffswitch-inner {
   width: 200%;
   margin-left: -100%;
@@ -25316,7 +25315,7 @@ a.x-color-picker-item:hover {
   -o-transition: margin 0.3s ease-in 0s;
   transition: margin 0.3s ease-in 0s;
 }
-/* line 27, ../../../../../packages/ExtAddonToggleButton/sass/src/form/field/ToggleButton.scss */
+/* line 27, ../../../../../packages/ExtAddonTogetherJS/sass/src/Collaborate.scss */
 .onoffswitch .onoffswitch-inner:before, .onoffswitch .onoffswitch-inner:after {
   float: left;
   width: 50%;
@@ -25329,14 +25328,14 @@ a.x-color-picker-item:hover {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 39, ../../../../../packages/ExtAddonToggleButton/sass/src/form/field/ToggleButton.scss */
+/* line 39, ../../../../../packages/ExtAddonTogetherJS/sass/src/Collaborate.scss */
 .onoffswitch .onoffswitch-inner:before {
   content: attr(data-onText);
   padding-left: 10px;
   background-color: #59afee;
   color: #FFFFFF;
 }
-/* line 45, ../../../../../packages/ExtAddonToggleButton/sass/src/form/field/ToggleButton.scss */
+/* line 45, ../../../../../packages/ExtAddonTogetherJS/sass/src/Collaborate.scss */
 .onoffswitch .onoffswitch-inner:after {
   content: attr(data-offText);
   padding-right: 10px;
@@ -25344,7 +25343,7 @@ a.x-color-picker-item:hover {
   color: #999999;
   text-align: right;
 }
-/* line 52, ../../../../../packages/ExtAddonToggleButton/sass/src/form/field/ToggleButton.scss */
+/* line 52, ../../../../../packages/ExtAddonTogetherJS/sass/src/Collaborate.scss */
 .onoffswitch .onoffswitch-switch {
   width: 12px;
   margin: 5px;
@@ -25361,13 +25360,13 @@ a.x-color-picker-item:hover {
   transition: all 0.3s ease-in 0s;
 }
 
-/* line 68, ../../../../../packages/ExtAddonToggleButton/sass/src/form/field/ToggleButton.scss */
+/* line 68, ../../../../../packages/ExtAddonTogetherJS/sass/src/Collaborate.scss */
 .x-form-cb-checked .onoffswitch-label .onoffswitch-inner,
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
   margin-left: 0;
 }
 
-/* line 73, ../../../../../packages/ExtAddonToggleButton/sass/src/form/field/ToggleButton.scss */
+/* line 73, ../../../../../packages/ExtAddonTogetherJS/sass/src/Collaborate.scss */
 .x-form-cb-checked .onoffswitch-label .onoffswitch-switch,
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
   right: 0px;
