@@ -3,8 +3,8 @@ Ext.define('ExtAddonTogetherJS.Collaborate', {
 	xtype: 'extaddoncollaborate',
 	cls: 'extaddoncollaborate',
 
-	onText: 'on',
-	offText: 'off',
+	onText: 'enabled',
+	offText: 'disabled',
 	fieldLabel: 'Collaborate',
 	fieldName: 'onoffswitch',
 	
