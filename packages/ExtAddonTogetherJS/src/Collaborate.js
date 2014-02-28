@@ -30,7 +30,7 @@ Ext.define('ExtAddonTogetherJS.Collaborate', {
 
 		TogetherJSConfig_useMinimizedCode = true;
 		TogetherJSConfig_disableWebRTC = true;
-		TogetherJSConfig_autoStart = false;
+		TogetherJSConfig_autoStart = false; //FIXME: DOESN'T WORK??? (note as soon as it works we need to store stuff in localstorage)
 		TogetherJSConfig_siteName = "Nouveau Code Editor";
 		TogetherJSConfig_toolName = "Collaboration";
 		TogetherJSConfig_includeHashInUrl = true;

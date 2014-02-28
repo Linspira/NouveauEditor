@@ -37,6 +37,9 @@ Ext.define('ExtAddonEditor.Editor', {
     	for(i; i<pre.length; i++){
     		var editor = ace.edit(pre[i]);
 			editor.setTheme("ace/theme/textmate");
+			editor.setFontSize(16);
+			editor.setDisplayIndentGuides(true);
+			editor.renderer.setShowPrintMargin(false);
 			this.setEditorMode(pre[i], editor);
     	}
 	},
@@ -57,6 +60,8 @@ Ext.define('ExtAddonEditor.Editor', {
 			mode = "ace/mode/html";
 		} else if(pre.hasCls('readonly')){
 			mode = "ace/mode/text";
+			editor.setReadOnly(true);
+
 		} else if(pre.hasCls('touch')){
 			//TODO
 		}

@@ -1,2 +1,0 @@
-# ExtAddonToggleButton - Read Me
-
