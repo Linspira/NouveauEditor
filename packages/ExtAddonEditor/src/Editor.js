@@ -40,6 +40,7 @@ Ext.define('ExtAddonEditor.Editor', {
 			editor.setFontSize(16);
 			editor.setDisplayIndentGuides(true);
 			editor.renderer.setShowPrintMargin(false);
+			editor.session.setTabSize(4);
 			this.setEditorMode(pre[i], editor);
     	}
 	},
