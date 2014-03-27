@@ -25374,22 +25374,10 @@ a.x-color-picker-item:hover {
 
 /* including package ExtAddonEditor */
 /* line 1, ../../../../../packages/ExtAddonEditor/sass/src/Editor.scss */
-.extaddoneditorwrapper {
-  position: absolute;
-  background: red;
-  height: 100%;
-}
-
-/*
 .extaddoneditor {
-	position: relative;
+  margin: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  display: none;
 }
-
-.runnable.ace_editor { 
-    margin: 0;
-    top: 0;
-    bottom: 0;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}*/
