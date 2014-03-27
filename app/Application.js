@@ -13,5 +13,11 @@ Ext.define('CodeEditor.Application', {
 
     stores: [
         // TODO: add stores here
-    ]
+    ],
+
+    requires: ['ExtAddonEditor.WrapperStarter'],
+
+    launch: function(){
+        ExtAddonEditor.WrapperStarter.init();
+    }
 });

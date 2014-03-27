@@ -32,6 +32,9 @@ Ext.Loader.addClassPathMappings({
   "Ext.core.DomHelper": "ext/src/dom/Helper.js",
   "Ext.core.DomQuery": "ext/src/dom/Query.js",
   "ExtAddonEditor.Editor": "packages/ExtAddonEditor/src/Editor.js",
+  "ExtAddonEditor.Previewer": "packages/ExtAddonEditor/src/Previewer.js",
+  "ExtAddonEditor.Wrapper": "packages/ExtAddonEditor/src/Wrapper.js",
+  "ExtAddonEditor.WrapperStarter": "packages/ExtAddonEditor/src/WrapperStarter.js",
   "ExtAddonTogetherJS.Collaborate": "packages/ExtAddonTogetherJS/src/Collaborate.js",
   "ExtThemeNeptune": "ext/packages/ext-theme-neptune/overrides"
 });
@@ -872,6 +875,9 @@ Ext.ClassManager.addNameAlternateMappings({
     "Ext.Window"
   ],
   "ExtAddonEditor.Editor": [],
+  "ExtAddonEditor.Previewer": [],
+  "ExtAddonEditor.Wrapper": [],
+  "ExtAddonEditor.WrapperStarter": [],
   "ExtAddonTogetherJS.Collaborate": [],
   "ExtThemeNeptune.Component": [],
   "ExtThemeNeptune.container.ButtonGroup": [],
@@ -1898,6 +1904,13 @@ Ext.ClassManager.addNameAliasMappings({
   "ExtAddonEditor.Editor": [
     "widget.extaddoneditor"
   ],
+  "ExtAddonEditor.Previewer": [
+    "widget.extaddonpreviewer"
+  ],
+  "ExtAddonEditor.Wrapper": [
+    "widget.extaddoneditorwrapper"
+  ],
+  "ExtAddonEditor.WrapperStarter": [],
   "ExtAddonTogetherJS.Collaborate": [
     "widget.extaddoncollaborate"
   ],

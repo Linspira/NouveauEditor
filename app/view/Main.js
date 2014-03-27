@@ -1,59 +1,34 @@
 Ext.define('CodeEditor.view.Main', {
-    extend: 'Ext.tab.Panel',
-    requires:[
-        'Ext.tab.Panel',
-        'Ext.form.field.Checkbox',
-        'ExtAddonEditor.Editor',
-        'ExtAddonTogetherJS.Collaborate'
-    ],
-    
-    layout: 'card',
+    //extend: 'Ext.tab.Panel',
+    extend: 'Ext.panel.Panel',
     xtype: 'app-main',
-    deferredRender: false,
-    tabPosition: 'left',
 
-    tbar: [{
-        xtype: 'combobox',
-        store: [
-            [0, 'Ext JS'],
-            [1, 'Touch']
-        ],
-        value: 0,
-        forceSelection: true,
-        listeners: {
-            change: function(combo){
-                combo.up('app-main').getLayout().setActiveItem(combo.getValue());
-            }
-        }
-
-    }, {
-        xtype: 'tbfill'
-    }, {
-        xtype: 'extaddoncollaborate',
-        title: 'Collaborate'
-    }],
-
-
+    layout: {
+        type: 'vbox',
+        align: 'stretch'
+    },
+    
+    //extjs will query for pre.runnable HTML tags to kickstart the editor
+    //run somewhere in your application after loading views: 
+    //ExtAddonEditor.WrapperStarter.init() (see Application.js)
     items: [
     {
-        xtype: 'extaddoneditor',
+        xtype: 'panel',
         title: 'Demo JS editor',
         html: '<pre class="runnable">function foo(){ //example 1 }</pre>',
+        flex: 1,
     },
     {
-        xtype: 'extaddoneditor',
+        xtype: 'panel',
         title: 'Demo splitscreen',
         html: '<pre class="runnable" style="width:50%;">function foo(){ //code 1 }</pre><pre class="runnable" style="width:50%; left: 50%;">function foo(){ //code 2 }</pre>',
+        flex: 2
     }, 
     {
-        xtype: 'extaddoneditor',
+        xtype: 'panel',
         title: 'Demo CSS editor',
-        html: '<pre class="runnable css">.cls: { position: absolute; }</spre>'
-    },
-    {
-        xtype: 'extaddoneditor',
-        title: 'Demo Text',
-        html: '<pre class="runnable readonly">Readonly</spre>'
+        html: '<pre class="runnable css">.cls: { position: absolute; }</spre>',
+        flex: 1
     }
 
     ]
