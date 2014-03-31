@@ -15,7 +15,7 @@ Ext.define('CodeEditor.view.Main', {
     {
         xtype: 'panel',
         title: 'Demo JS editor',
-        html: '<pre class="runnable">function foo(){ //example 1 }</pre>',
+        html: '<pre class="runnable">alert("Boo!");</pre>',
         flex: 1,
     },
     {
