@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="//extjs.cachefly.net/touch/sencha-touch-2.3.1/gpl/resources/css/sencha-touch.css">
+    <script type="text/javascript" src="//extjs.cachefly.net/touch/sencha-touch-2.3.1/gpl/sencha-touch-all-debug.js"></script>
+</head>
+
+<body>
+
+    <script type="text/javascript">
+Ext.application({name : 'Fiddle', launch : function() {
+ Ext.create('Ext.TabPanel', {
+    fullscreen: true,
+    tabBarPosition: 'bottom',
+
+    defaults: {
+        styleHtmlContent: true
+    },
+
+    items: [
+        {
+            title: 'Home',
+            iconCls: 'home',
+            html: 'Home Screen'
+        },
+        {
+            title: 'Contact',
+            iconCls: 'user',
+            html: 'Contact Screen'
+        }
+    ]
+});
+}});</script>
+</body>
+
+</html>

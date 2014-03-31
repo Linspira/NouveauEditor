@@ -48,12 +48,12 @@ Ext.define('ExtAddonEditor.Previewer', {
 		iframe.body.innerHTML = "";
 		script.type = 'text/javascript';
 		
-		//script.innerHTML = "console.log(Ext); Ext.onReady(function() { " +
+		//script.innerHTML = "Ext.onReady(function() { " +
 		//	this.getSnippet() + 
 		//"});";
 		//script.innerHTML = this.getSnippet();
 
-		script.innerHTML = "Ext.application({ name : 'Editor', launch : function() { console.dir(Ext.Viewport); " +
+		script.innerHTML = "Ext.application({name : 'Fiddle', launch : function() { " +
 			this.getSnippet() +
     	"}});"
 
